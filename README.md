@@ -4,6 +4,7 @@
 This project implements a real-time dynamic pricing engine for smart parking management using Pathway. The system computes parking prices based on historical occupancy trends and real-time signals like queue length, traffic, and special day effects. Two models (Model 1 and Model 2) are used to compute prices, which are then visualized and compared to real-time actual pricing.
 
 The goal is to create a fair and scalable pricing strategy that optimizes utilization and responds to real-world demand fluctuations.
+
 🧰 Tech Stack
 Component                Technology
 
@@ -36,6 +37,6 @@ demand = 0.4 * occ_ratio + 0.3 * queue + 0.2 * is_special_day + ...
 price = 10 * (1 + 0.5 * normalized_demand)
 
 Visualization: Model 1, Model 2, and Actual Price are plotted via Bokeh & Panel.
+![image](https://github.com/user-attachments/assets/ab8c56b6-8fc6-4754-a7ae-09d4ea2738ba)
 
-Export: Notebook cleansed and exported to HTML for easy viewing on GitHub.
 
